@@ -34,19 +34,19 @@ export default class DetailsScreen extends Component {
     let imagePath = "";
     switch (planetType) {
       case "Gas Giant":
-        imagePath = require("../assets/planet_type/gas_giant.png");
+        imagePath = require("../assets/gas_giant.png");
         break;
       case "Terrestrial":
-        imagePath = require("../assets/planet_type/terrestrial.png");
+        imagePath = require("../assets/terrestrial.png");
         break;
       case "Super Earth":
-        imagePath = require("../assets/planet_type/super_earth.png");
+        imagePath = require("../assets/super_earth.png");
         break;
       case "Neptune Like":
-        imagePath = require("../assets/planet_type/neptune_like.png");
+        imagePath = require("../assets/neptune_like.png");
         break;
       default:
-        imagePath = require("../assets/planet_type/gas_giant.png");
+        imagePath = require("../assets/gas_giant.png");
     }
 
     this.setState({
